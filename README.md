@@ -1,5 +1,18 @@
 # CDK Automatic1111 EC2
 
+install deps
+
+```bash
+$ cd infra
+$ npm i
+```
+
+toml 파일 수정 후 복사하기
+
+```bash
+$ cp config/dev.toml .toml
+```
+
 cdk 설치
 
 ```bash
