@@ -1,0 +1,14 @@
+[app]
+ns="Automatic1111Ec2Demo"
+stage="Dev"
+
+[aws]
+account="111111111111"
+region="ap-northeast-2"
+
+[vpc]
+id=""
+availabilityZone="ap-northeast-2b"
+
+[security]
+inboundCIDR="127.0.0.1/32"
